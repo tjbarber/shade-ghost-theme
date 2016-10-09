@@ -27,12 +27,12 @@
         {{#foreach posts}}
         <article class="{{post_class}}">
           <div class="post-header">
-            <span class="post-meta"><time datetime="{{date format='DD. MMM, YYYY'}}">{{date format="DD. MMM, YYYY"}}</time>{{#if tags}} on {{tags}}{{/if}}</span>
+            <span class="post-meta"><time datetime="{{date format='DD. MMM, YYYY'}}">{{date format="DD. MMM, YYYY"}}</time>{{#if tags}} om {{tags}}{{/if}}</span>
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
           </div>
           <section class="post-excerpt">
             <p>{{excerpt}} &hellip;</p>
-            <p><a href="{{url}}" class="btn btn-ghost">Read more</a></p>
+            <p><a href="{{url}}" class="btn btn-ghost">L&aelig;s mere</a></p>
           </section>
         </article>
         {{/foreach}}
