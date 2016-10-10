@@ -8,22 +8,24 @@
 @import 'shade/variables';
 @import 'shade/mixins';
 
-// Normalize
-@import 'shade/normalize';
 
 // Core CSS
-@import 'shade/scaffolding';
+@import 'shade/basics';
 @import 'shade/typography';
-@import 'shade/pagination';
 @import 'shade/navigation';
+@import 'shade/header';
 @import 'shade/footer';
+@import 'shade/buttons';
+
 
 // Posts and single posts
 @import 'shade/posts';
 @import 'shade/single-posts';
 
+
 // Animations
 @import 'shade/animations';
 
-// Icons
-@import 'shade/icons';
+
+// Prism
+@import 'shade/code';

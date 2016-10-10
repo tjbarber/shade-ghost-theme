@@ -5,25 +5,29 @@
     <title>{{meta_title}}</title>
     <meta name="description" content="{{meta_description}}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="{{asset "css/bootstrap.min.css"}}">
     <link rel="stylesheet" href="{{asset "css/shade.css"}}">
-    
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
-
   </head>
   <body class="{{body_class}}">
-
     {{! Everything else gets inserted here }}
     {{{body}}}
 
-    <footer class="site-footer">
-        <div class="inner">
-             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">Morten Sørensen</a>. Udgivet med <a href="https://ghost.org">Ghost</a>.</section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="footer">&copy; 2016 <a href="/">Morten Sørensen</a>. Udgivet med <a href="https://ghost.org">Ghost</a>.</div>
+          </div>
         </div>
+      </div>
     </footer>
 
+    <script>var max_pages = parseInt('{{pagination.pages}}');</script>
     <script src="https://cdn.cloudcache.dk/jquery/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="{{asset "js/shade.js"}}"></script>
+    <script src="{{asset "js/shade.js"}}"></script>
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
   </body>

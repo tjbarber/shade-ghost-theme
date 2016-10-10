@@ -7,6 +7,7 @@ $body-bg:               #37474F !default;
 $header-bg:             #263238 !default;
 $footer-bg:             $header-bg !default;
 $navbar-bg:             $header-bg !default;
+$nav-side-bg:           $body-bg !default;
 
 $text-color:            #CFD8DC !default;
 $header-text-color:     darken($text-color, 15%) !default;
@@ -18,13 +19,6 @@ $meta-color:            #607D8B !default;
 $meta-hover-color:      lighten($meta-color, 10%) !default;
 $meta-tag-color:        #B0BEC5 !default;
 
-$button-bg:             #263238 !default;
-$button-border:         $button-bg !default;
-$button-hover-bg:       lighten($button-bg, 10%) !default;
-$button-hover-border:   $button-hover-bg !default;
-$button-text:           darken($text-color, 10%) !default;
-$button-hover-text:     $text-color !default;
-
 $border-color:          rgba(255,255,255,.05) !default;
 
 $code-bg:               #263238 !default;
@@ -32,13 +26,16 @@ $code-bg:               #263238 !default;
 $pagination-bg:         #263238 !default;
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,700);
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import 'https://cdn.cloudcache.dk/fonts/roboto-slab/css/roboto-slab.css';
+@import 'https://cdn.cloudcache.dk/fonts/roboto-draft/css/roboto-draft.css';
+@import 'https://cdn.cloudcache.dk/fonts/liberation-mono/css/liberation-mono.css';
+@import 'https://cdn.cloudcache.dk/materialdesignicons/1.6.50/css/materialdesignicons.min.css';
 
-$font-family:           "Roboto Mono", "Courier New", Courier, monospace !default;
-$font-family-code:      "Inconsolata", Menlo, Consolas, Monaco, "Lucida Console", monospace !default;
+$font-family:           "Roboto Draft", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-heading:   "Roboto Slab", Georgia, "Times New Roman", Times, serif !default;
+$font-family-code:      "Liberation Mono", Menlo, Consolas, Monaco, "Lucida Console", monospace !default;
 $font-size-root:        16px !default;
-$font-size:             1rem !default;
+$font-size:             1.125rem !default;  // 18px
 
 $font-size-h1:          3.125rem !default;  // 50px
 $font-size-h2:          2.5rem !default;    // 40px
@@ -48,4 +45,3 @@ $font-size-h5:          1.25rem !default;   // 20px
 $font-size-h6:          1rem !default;      // 16px
 
 $line-height:           1.5 !default;
-
