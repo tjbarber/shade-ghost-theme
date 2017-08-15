@@ -30,9 +30,8 @@
             <span class="post-meta"><time datetime="{{date format='DD. MMM, YYYY'}}">{{date format="DD. MMM, YYYY"}}</time>{{#if tags}} on {{tags}}{{/if}}</span>
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
           </div>
-          <section class="post-excerpt">
-            <p>{{excerpt}} &hellip;</p>
-            <p><a href="{{url}}" class="btn btn-ghost">Read more</a></p>
+          <section class="post-content">
+            {{content}}
           </section>
         </article>
         {{/foreach}}
