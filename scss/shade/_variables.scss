@@ -9,19 +9,19 @@ $footer-bg:             $header-bg !default;
 $navbar-bg:             $header-bg !default;
 $nav-side-bg:           $body-bg !default;
 
-$text-color:            #696969 !default;
+$text-color:            #707070 !default;
 $header-text-color:     darken($text-color, 15%) !default;
 
-$heading-color:         #90A4AE !default;
-$heading-hover-color:   #B0BEC5 !default;
+$heading-color:         #666 !default;
+$heading-hover-color:   #666 !default;
 
-$meta-color:            #607D8B !default;
+$meta-color:            #666 !default;
 $meta-hover-color:      lighten($meta-color, 10%) !default;
 $meta-tag-color:        #B0BEC5 !default;
 
 $border-color:          rgba(255,255,255,.05) !default;
 
-$code-bg:               #cccccc !default;
+$code-bg:               #333333 !default;
 
 $pagination-bg:         #263238 !default;
 
