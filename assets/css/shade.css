@@ -21,7 +21,7 @@ body {
   font-size: 1.125rem;
   font-weight: 300;
   color: #707070;
-  background-color: #c9c9c9; }
+  background-color: #fff; }
 
 h1, h2, h3,
 h4, h5, h6 {
@@ -407,5 +407,5 @@ footer {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background-color: #fff;
+  background-color: #333333;
   padding: 1rem; }
