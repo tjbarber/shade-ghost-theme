@@ -407,5 +407,5 @@ footer {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background-color: #333333;
+  background-color: #6c6c6c;
   padding: 1rem; }
