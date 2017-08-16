@@ -3,13 +3,13 @@
 // -----------------------------
 
 // Colors
-$body-bg:               #363636 !default;
-$header-bg:             #242424 !default;
+$body-bg:               #c9c9c9 !default;
+$header-bg:             #fff !default;
 $footer-bg:             $header-bg !default;
 $navbar-bg:             $header-bg !default;
 $nav-side-bg:           $body-bg !default;
 
-$text-color:            #a8a8a8 !default;
+$text-color:            #696969 !default;
 $header-text-color:     darken($text-color, 15%) !default;
 
 $heading-color:         #90A4AE !default;
@@ -21,7 +21,7 @@ $meta-tag-color:        #B0BEC5 !default;
 
 $border-color:          rgba(255,255,255,.05) !default;
 
-$code-bg:               #242424 !default;
+$code-bg:               #cccccc !default;
 
 $pagination-bg:         #263238 !default;
 
