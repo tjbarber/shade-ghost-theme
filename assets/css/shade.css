@@ -231,6 +231,8 @@ footer {
   border-bottom: rgba(255, 255, 255, 0.05) 1px solid;
   font-size: 1.125rem;
   word-break: break-word; }
+  .post img {
+    width: 100%; }
   @media (max-width: 900px) {
     .post {
       font-size: 1rem;
