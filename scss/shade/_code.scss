@@ -5,6 +5,6 @@
 // Basically just a different background and some padding
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-  background-color: $header-bg;
+  background-color: $code-bg;
   padding: 1rem;
 }
