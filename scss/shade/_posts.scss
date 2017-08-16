@@ -10,6 +10,10 @@
     width:100%
   }
 
+  a {
+    color: #fd7878;
+  }
+
   @media (max-width: 900px) {
     font-size: 1rem;
     line-height: 1;
@@ -29,11 +33,11 @@
       font-size: 2.5rem;
       line-height: 3.75rem;
       a {
-        color: #fd7878;
+        color: $heading-color;
         @include transition(color .2s ease);
         &:hover,
         &:focus {
-          color: #fd7878;
+          color: $heading-hover-color;
           cursor: pointer;
         }
       }

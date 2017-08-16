@@ -233,6 +233,8 @@ footer {
   word-break: break-word; }
   .post img {
     width: 100%; }
+  .post a {
+    color: #fd7878; }
   @media (max-width: 900px) {
     .post {
       font-size: 1rem;
@@ -250,13 +252,13 @@ footer {
     font-size: 2.5rem;
     line-height: 3.75rem; }
     .post .post-header .post-title a {
-      color: #fd7878;
+      color: #666;
       -webkit-transition: color 0.2s ease;
       -moz-transition: color 0.2s ease;
       -ms-transition: color 0.2s ease;
       transition: color 0.2s ease; }
       .post .post-header .post-title a:hover, .post .post-header .post-title a:focus {
-        color: #fd7878;
+        color: #666;
         cursor: pointer; }
   .post .post-header .post-meta {
     display: inline-block;
