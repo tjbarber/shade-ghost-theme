@@ -29,11 +29,11 @@
       font-size: 2.5rem;
       line-height: 3.75rem;
       a {
-        color: $heading-color;
+        color: #fd7878;
         @include transition(color .2s ease);
         &:hover,
         &:focus {
-          color: $heading-hover-color;
+          color: #fd7878;
           cursor: pointer;
         }
       }

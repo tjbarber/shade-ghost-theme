@@ -250,13 +250,13 @@ footer {
     font-size: 2.5rem;
     line-height: 3.75rem; }
     .post .post-header .post-title a {
-      color: #666;
+      color: #fd7878;
       -webkit-transition: color 0.2s ease;
       -moz-transition: color 0.2s ease;
       -ms-transition: color 0.2s ease;
       transition: color 0.2s ease; }
       .post .post-header .post-title a:hover, .post .post-header .post-title a:focus {
-        color: #666;
+        color: #fd7878;
         cursor: pointer; }
   .post .post-header .post-meta {
     display: inline-block;
