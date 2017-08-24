@@ -23,6 +23,9 @@ body {
   color: #707070;
   background-color: #fff; }
 
+body {
+  line-height: 1.8; }
+
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
