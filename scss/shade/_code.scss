@@ -5,6 +5,9 @@
 // Basically just a different background and some padding
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
+  // ADDED ME ME
+  margin-top: 1rem;
+  // ORIGINAL CODE
   background-color: $code-bg;
   padding: 1rem;
 }

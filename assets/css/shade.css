@@ -27,7 +27,7 @@ h1, h2, h3,
 h4, h5, h6 {
   font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
   text-rendering: optimizeLegibility;
-  line-height: 1.5;
+  line-height: 1.8;
   margin-top: 0;
   letter-spacing: 2px;
   font-weight: normal; }
@@ -182,7 +182,7 @@ header {
   header h2.blog-description {
     margin: 0;
     font-size: 1.25rem;
-    line-height: 1.5;
+    line-height: 1.8;
     font-weight: 300;
     letter-spacing: 0; }
 
@@ -235,6 +235,10 @@ footer {
     width: 100%; }
   .post a {
     color: #fd7878; }
+  .post blockquote {
+    background-color: #f7f7f9;
+    margin: 1rem;
+    padding: 1rem; }
   @media (max-width: 900px) {
     .post {
       font-size: 1rem;
@@ -411,5 +415,6 @@ footer {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
+  margin-top: 1rem;
   background-color: #6c6c6c;
   padding: 1rem; }
