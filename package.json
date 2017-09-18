@@ -13,9 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/moso/shade-ghost-theme.git"
   },
-  "config": {
-    "posts_per_page": 3
-  },
   "author": [
     "Morten Sørensen (morten@moso.io)"
   ],
