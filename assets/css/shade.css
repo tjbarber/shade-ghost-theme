@@ -46,7 +46,7 @@ h1 {
   @media (max-width: 500px) {
     h1 {
       font-size: 3rem;
-      line-height: 1;
+      line-height: 1.8;
       letter-spacing: -1px; } }
 
 h2 {
@@ -59,7 +59,7 @@ h2 {
   @media (max-width: 500px) {
     h2 {
       font-size: 2rem;
-      line-height: 1;
+      line-height: 1.8;
       letter-spacing: -1px; } }
 
 h3 {
@@ -245,14 +245,14 @@ footer {
   @media (max-width: 900px) {
     .post {
       font-size: 1rem;
-      line-height: 1; } }
+      line-height: 1.8; } }
   @media (max-width: 500px) {
     .post {
       width: auto;
       margin-left: 1rem;
       margin-right: 1rem;
       font-size: .875rem;
-      line-height: 1; } }
+      line-height: 1.8; } }
   .post .post-header .post-title {
     margin: 0 0 .5rem;
     color: #666;
