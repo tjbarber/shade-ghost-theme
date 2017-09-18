@@ -183,7 +183,7 @@ header {
     font-size: 3.125rem;
     letter-spacing: -1px; }
   header h2.blog-description {
-    margin: 0;
+    margin: 20px;
     font-size: 1.25rem;
     line-height: 1.8;
     font-weight: 300;
