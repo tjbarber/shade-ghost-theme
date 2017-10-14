@@ -165,10 +165,6 @@ pre, code {
 
 .pagination {
   width: 100%;
-  position: relative;
-  margin: 40px auto;
-  font-family: "Roboto Draft", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: .875rem;
   color: #707070;
   text-align: center; }
   @media (max-width: 500px) {
@@ -178,42 +174,6 @@ pre, code {
       margin-right: 1rem; } }
   .pagination a {
     color: #707070; }
-
-.older-posts,
-.newer-posts {
-  position: absolute;
-  display: inline-block;
-  padding: 0 15px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  text-decoration: none;
-  border-radius: 4px;
-  background-color: #263238;
-  -webkit-transition: border 0.2s ease;
-  -moz-transition: border 0.2s ease;
-  -ms-transition: border 0.2s ease;
-  transition: border 0.2s ease; }
-  .older-posts:hover, .older-posts:focus,
-  .newer-posts:hover,
-  .newer-posts:focus {
-    border-color: #263238; }
-  @media (max-width: 500px) {
-    .older-posts,
-    .newer-posts {
-      position: static;
-      margin: 10px 0; } }
-
-.older-posts {
-  right: 0; }
-
-.newer-posts {
-  left: 0; }
-
-.page-number {
-  display: inline-block;
-  padding: 2px 0; }
-  @media (max-width: 500px) {
-    .page-number {
-      display: block; } }
 
 header {
   display: flex;
